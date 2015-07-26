@@ -7,7 +7,9 @@ namespace CodeKata.Tests
     public class PalindromeTests
     {
         //private readonly IPalindromeDetector _sut = new EmpiricIterationDetector();
-        private readonly IPalindromeDetector _sut = new ImmutableRecursionDetector();
+        //private readonly IPalindromeDetector _sut = new MutableRecursionDetector();
+        //private readonly IPalindromeDetector _sut = new ImmutableRecursionDetector();
+        private readonly IPalindromeDetector _sut = new ReversedMirrorIterationDetector();
 
         [TestMethod]
         public void IsEvenPalindrome()

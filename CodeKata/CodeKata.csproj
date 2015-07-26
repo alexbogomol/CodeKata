@@ -44,6 +44,7 @@
     <Compile Include="Palindrome\IPalindromeDetector.cs" />
     <Compile Include="Palindrome\ImmutableRecursionDetector.cs" />
     <Compile Include="Palindrome\MutableRecursionDetector.cs" />
+    <Compile Include="Palindrome\ReversedMirrorIterationDetector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,7 +13,7 @@
 
             var steps = length / 2;
 
-            for (int step = 0; step < steps; step++)
+            for (int step = 0; step <= steps; step++)
             {
                 if (sequence[step] != sequence[length - 1 - step])
                 {
